@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { io } from 'socket.io-client';
-import { useStore } from './store';
+import { useStore } from '../store';
 
 export const api = axios.create({ baseURL: '/api' });
 
